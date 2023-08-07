@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 62.5%;
+    font-size: 62.5%;
+}
+body{
+    background:white;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0 ;
+    font-size: 2rem;
+    text-align: center;
+    height: 70px;
+    background: rgba(32, 95, 32,0.9);
+    border: 1px solid rgb(32, 95, 32);
+    margin-bottom:70px ;
+}
+header>a{
+    text-decoration: none;
+    position: relative;
+    top:3rem;
+    color:white;
+    padding-top: 0.5rem;
+    padding-left:10px ;
+    padding-right: 10px;
+    background:rgb(32, 95, 32);
+    border: 2px solid white;
+    border-radius: 0.3rem;
+}
+
+body{
+    margin-top: 100px;
+    color:rgb(32, 95, 32);
+
+}
+
+body>h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.monitor-img{
+    width: 50%;
+    height: auto;
+    margin:0px 25% 20px 25% ;
+    border: 1px solid rgb(32, 95, 32);
+    border-radius: 0.4rem;
+}
+
+.public-section{
+    width: 60%;
+    margin:0px 20% 20px 20% ;
+    border: 1px solid rgb(32, 95, 32);
+    border-radius: 0.4rem;
+    float: left;
+}
+
+.public-section img{
+    height: 48px;
+    width:6.2%;
+    border: 2px solid rgb(32, 95, 32);
+    border-radius: 4rem;
+}
+
+.public-section>h1{
+    margin-left: 4%;
+    font-size: 2rem;
+}
+
+.person-comment{
+    width: 80%;
+    margin: 0px 10% 8px 10%;
+    border: 1px solid rgb(32, 95, 32);
+    border-radius: 1rem;
+}
+
+.clearfix{
+    float: left ;
+}
+
+.person-comment>img{
+    margin-top:10px ;
+    width: 35px;
+    height: 35px;
+    margin-left:5% ;
+    margin-right: 6%;
+
+}
+
+.person-comment>section.second-piece{
+    width: 60%;
+    height: 65px;
+}
+.person-comment>*{
+    float: left;
+}

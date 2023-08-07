@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 62.5%;
+    font-size: 62.5%;
+}
+    body{
+    background: rgb(247,255,236);
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+header>*{
+    float: left;
+}
+header>nav{
+    width: 73%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header>nav>a{
+    width: 16%;
+    float: left;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin-right: 5%;
+    background:rgb(32, 95, 32);
+    border-radius: 0.3rem;
+    border:2px solid white;
+ 
+}
+header>section{
+    width: 20%;
+}
+#donate{
+    position:fixed;
+    right: 6%;
+    background:rgb(65, 64, 64);
+}   
+
+
+section>p{
+    font-size: 1.5rem;
+    color: white;
+}
+header>*{
+    margin-top:2rem;
+}
+header>img{
+    width: 80px;
+    height: 80px;
+    margin-top: 0rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(32, 95, 32);
+}
+/*designing the responsive navbar*/
+ul{
+    height: 200px;
+    width: 250px;
+    position: fixed;
+    left:18%;
+    border: 2px solid rgb(32, 95, 32);  
+    margin: auto;
+    border-radius:0.5rem ;
+    transform: translateY(-250px);
+}
+ul>li{
+    list-style: none;
+
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0.5rem;
+    background:rgb(32, 95, 32);
+    border-radius: 0.3rem;
+    border:2px solid white;
+ 
+}
+#toggle{
+    transform: translateY(-200px);
+}
+.openmenu{
+    position: fixed;
+    top:20px;
+    right: 43%;
+    width: 12%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+    background:rgb(32, 95, 32);
+    border-radius: 0.3rem;
+    border:2px solid white;
+    display: none ;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar>a{
+        display: none;
+    }
+    #donate{
+        display: flex;
+        margin-right: 0;
+    }
+    header>nav>a{
+        font-size: 1.2rem;
+    }
+    .openmenu{
+        display: flex;
+    }
+    #toggle:checked ~ .menubar{
+        transform: translateY(0px);
+    }
+    header>img{
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top:16px;
+    }
+}
+
