@@ -1,43 +1,37 @@
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-html{
-    height: 62.5%;
-    font-size: 62.5%;
-}
+
 body{
-    background:white;
+    background: linear-gradient(to left ,rgb(242, 178, 178), rgb(172, 234, 172) ,rgb(179, 179, 255));
 }
 
 header{
+    background:linear-gradient(134deg, black,rgb(207, 242, 207),transparent);
+    height: 80px;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left:0 ;
-    font-size: 2rem;
-    text-align: center;
-    height: 70px;
-    background: rgba(32, 95, 32,0.9);
-    border: 1px solid rgb(32, 95, 32);
-    margin-bottom:70px ;
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
 }
-header>a{
+header a{
+    padding-left: 30px;
+    color: white;
+    font-size: 25px;
     text-decoration: none;
-    position: relative;
-    top:3rem;
-    color:white;
-    padding-top: 0.5rem;
-    padding-left:10px ;
-    padding-right: 10px;
-    background:rgb(32, 95, 32);
-    border: 2px solid white;
-    border-radius: 0.3rem;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-weight: bold;
 }
 
 body>h1{
-margin-top: 80px;
+margin-top: 30px;
 font-size: 3rem;
-color: rgb(32, 95, 32);
+color: black;
 text-decoration: underline;
 }
 
@@ -45,8 +39,8 @@ text-decoration: underline;
     text-decoration: none;
     color: white;
     margin-top: 20px;
-    padding-top: 0.5rem;
-    background:rgb(32, 95, 32);
+    padding: 0.5rem;
+   background-color: rgb(255, 40, 40);
     border-radius: 0.4rem;
     font-size: 1.2rem;
 }
