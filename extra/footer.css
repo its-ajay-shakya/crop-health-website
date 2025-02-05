@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+footer{
+    color: rgb(32, 95, 32);
+    height: 200px;
+    background:white;
+    background-size: 100%;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border-bottom:1px solid gray;
+    border-top:1px solid gray;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 1rem;
+    margin: 0.5%;
+}
